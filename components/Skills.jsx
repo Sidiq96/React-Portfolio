@@ -2,7 +2,9 @@ import React from "react";
 
 import HTML from '../assets/images/html.png';
 import CSS from '../assets/images/css.png';
+import BootStrap from '../assets/images/bootstrap.png';
 import JavaScript from '../assets/images/javascript.png';
+import JQuery from "../assets/images/jquery.png";
 import ReactImg from '../assets/images/react.png';
 import Node from '../assets/images/node.png';
 import Tailwind from '../assets/images/tailwind.png';
@@ -27,20 +29,28 @@ const Skills = () => {
                         <p>CSS</p>
                     </div>
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+                        <img className="w-25 h-20 mx-auto" src={BootStrap} alt="HTML Logo" />
+                        <p>Bootstrap</p>
+                    </div>
+                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
                         <img className="w-20 mx-auto" src={JavaScript} alt="HTML Logo" />
                         <p>JavaScript</p>
                     </div>
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+                        <img className="w-25 h-20 mx-auto" src={JQuery} alt="HTML Logo" />
+                        <p>JQuery</p>
+                    </div>
+                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
                         <img className="w-20 mx-auto" src={Node} alt="HTML Logo" />
-                        <p>NodeJS</p>
+                        <p>Node.JS</p>
                     </div>
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
                         <img className="w-20 mx-auto" src={ReactImg} alt="HTML Logo" />
-                        <p>ReactJS</p>
+                        <p>React.JS</p>
                     </div>
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
                         <img className="w-20 mx-auto" src={Tailwind} alt="HTML Logo" />
-                        <p>TailwindCSS</p>
+                        <p>Tailwind.CSS</p>
                     </div>
                 </div>
             </div>
