@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Restaurant Tracker",
+      "image": "../assets/images/restaurant-tracker.png",
+      "github": "https://github.com/Sidiq96/restaurant-tracker/",
+      "live": "https://sidiq96.github.io/restaurant-tracker/"
+    },
+    {
+        "name": "Weather Dashboard",
+        "image": "../assets/images/weather-dashboard.png",
+        "github":"https://github.com/Sidiq96/Weather-Dashboard",
+        "live": "https://sidiq96.github.io/Weather-Dashboard"
+      },
+      {
+        "name": "Daily Planner",
+        "image":"../assets/images/daily-planner.png",
+        "github": "https://github.com/Sidiq96/Daily-Planner-App",
+        "live": "https://sidiq96.github.io/Daily-Planner-App/"
+      },
+      {
+        "name": "To Do List",
+        "image": "../assets/images/to-do-list.png",
+        "github": "https://github.com/Sidiq96/ToDo_List",
+        "live": "sidiq96.github.io/restaurant-tracker/"
+      },
+      {
+        "name": "Code Quiz",
+        "image": "../assets/images/code-quiz.png",
+        "github": "https://github.com/Sidiq96/Code_Quiz",
+        "live": "https://sidiq96.github.io/Code_Quiz"
+      },
+      {
+        "name": "Password Generator",
+        "image": "../assets/images/password-generator.png",
+        "github": "https://github.com/Sidiq96/Password_Generator",
+        "live": "https://sidiq96.github.io/Password_Generator/"
+      }
+  ]
+  
