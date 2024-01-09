@@ -8,10 +8,10 @@ const Home = () => {
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         {/* Your content goes here */}
         <p className="text-red-500">Hi, My Name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#ffffff]">
           Sidiq Hersi
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#ffffff]">
           I'm a Front-end Developer
         </h2>
         <p className="text-[#e7ebf6] py-4 max-w-[700px]">
@@ -19,7 +19,7 @@ const Home = () => {
           user interfaces to bring digital experiences to life.{" "}
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-red-600">
+          <button className="flex items-center px-6 py-3 my-2 text-white border-2 group hover:bg-red-600">
             View Work <FaArrowCircleRight className="ml-2"/>
           </button>
         </div>

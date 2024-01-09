@@ -34,7 +34,9 @@ const NavBar = () => {
         <li className="hover:text-red-500">
           <a href="/work">Projects</a>
         </li>
-        <li className="hover:text-red-500">Contact Us</li>
+        <li className="hover:text-red-500">
+          <a href="/Contact">Contact Us</a>
+        </li>
       </ul>
 
       {/* Mobile menu */}
@@ -45,19 +47,21 @@ const NavBar = () => {
       {/* Mobile dropdown menu */}
       {nav && (
         <ul className="md:hidden absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center">
-          <li className="hover:text-red-500">
+          <li className="py-6 text-4xl hover:text-red-500">
             <a href="/">Home</a>
           </li>
-          <li className="hover:text-red-500">
+          <li className="py-6 text-4xl hover:text-red-500">
             <a href="/about">About</a>
           </li>
-          <li className="hover:text-red-500">
+          <li className="py-6 text-4xl hover:text-red-500">
             <a href="/skills">Skills</a>
           </li>
-          <li className="hover:text-red-500">
+          <li className="py-6 text-4xl hover:text-red-500">
             <a href="/Projects">Projects</a>
           </li>
-          <li className="py-6 text-4xl hover:text-red-500">Contact Us</li>
+          <li className="py-6 text-4xl hover:text-red-500">
+            <a href="/Contact">Contact Us</a>
+          </li>
         </ul>
       )}
     </div>
