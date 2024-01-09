@@ -3,10 +3,14 @@ import projectsData from "../components/ProjectsData.json";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div
+      name="work"
+      className=" pt-20 w-full
+    md:h-screen text-gray-300 bg-[#0a192f]"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="inline text-4xl font-bold text-gray-300 border-b-4 border-pink-600">
+          <p className="inline mt-20 text-4xl font-bold text-gray-300 border-b-4 border-pink-600">
             Work
           </p>
           <p className="py-6">Check out some of my recent work</p>
@@ -37,11 +41,7 @@ const Work = () => {
                       Code
                     </button>
                   </a>
-                  <a
-                    href={item.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={item.live} target="_blank" rel="noopener noreferrer">
                     <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
                       Live
                     </button>
@@ -57,4 +57,3 @@ const Work = () => {
 };
 
 export default Work;
-
