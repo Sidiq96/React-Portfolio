@@ -22,7 +22,7 @@ const Home = () => {
           user interfaces to bring digital experiences to life.{" "}
         </p>
         <div>
-          <button className="flex items-center px-6 py-3 my-2 text-white border-2 group hover:bg-red-600" onClick={handleButtonClick}>
+          <button className="flex items-center px-6 py-3 my-2 text-white border-2 group hover:bg-red-600 hover:scale-150 hover:duration-300" onClick={handleButtonClick}>
             View Work <FaArrowCircleRight className="ml-2"/>
           </button>
         </div>

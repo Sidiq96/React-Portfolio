@@ -37,7 +37,7 @@ const Contact = () => {
             className="p-2 bg-[#ccd6f6] w-full rounded-md"
             rows="10"
           ></textarea>
-          <button className="flex items-center px-4 py-3 mx-auto my-8 text-white border-2 hover:bg-red-600 hover:border-red-600">
+          <button className="flex items-center px-4 py-3 mx-auto my-8 text-white border-2 hover:bg-red-600 hover:border-red-600 hover:scale-150 hover:duration-300">
             Shoot me an email
           </button>
         </form>
