@@ -4,7 +4,7 @@ import Home from "../components/Home";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Work from "../components/Work";
-import { Routes, Route, HashRouter as Router } from "react-router-dom";
+import { Routes, Route, Router } from "react-router-dom";
 import projectsData from "../components/ProjectsData.json";
 import Contact from "../components/contact";
 
