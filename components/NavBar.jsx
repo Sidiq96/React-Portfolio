@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import Logo from "../assets/images/logo.png";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -10,7 +11,7 @@ const NavBar = () => {
   };
   const handleClickLink = () => {
     window.location.href = "/";
-  }
+  };
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 ">
@@ -27,19 +28,19 @@ const NavBar = () => {
       {/* Desktop menu */}
       <ul className="hidden md:flex">
         <li className="hover:text-red-500">
-          <a href="/">Home</a>
+          <NavLink to="/" end> Home</NavLink>
         </li>
         <li className="hover:text-red-500">
-          <a href="/about">About</a>
+        <NavLink to="/about" end> About</NavLink>
         </li>
         <li className="hover:text-red-500">
-          <a href="/skills">Skills</a>
+        <NavLink to="/skills" end> Skills</NavLink>
         </li>
         <li className="hover:text-red-500">
-          <a href="/work">Projects</a>
+        <NavLink to="/work" end> Projects</NavLink>
         </li>
         <li className="hover:text-red-500">
-          <a href="/Contact">Contact Us</a>
+        <NavLink to="/contact" end> Contact</NavLink>
         </li>
       </ul>
 
@@ -52,19 +53,19 @@ const NavBar = () => {
       {nav && (
         <ul className="md:hidden absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center">
           <li className="py-6 text-4xl hover:text-red-500">
-            <a href="/">Home</a>
+          <NavLink to="/" end> Home</NavLink>
           </li>
           <li className="py-6 text-4xl hover:text-red-500">
-            <a href="/about">About</a>
+          <NavLink to="/about" end> About</NavLink>
           </li>
           <li className="py-6 text-4xl hover:text-red-500">
-            <a href="/skills">Skills</a>
+          <NavLink to="/skills" end> Skills</NavLink>
           </li>
           <li className="py-6 text-4xl hover:text-red-500">
-            <a href="/work">Projects</a>
+          <NavLink to="/work" end> Projects</NavLink>
           </li>
           <li className="py-6 text-4xl hover:text-red-500">
-            <a href="/Contact">Contact Us</a>
+          <NavLink to="/contact" end> Contact</NavLink>
           </li>
         </ul>
       )}
