@@ -4,13 +4,13 @@ import Home from "../components/Home";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Work from "../components/Work";
-import { Routes, Route, Router } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import projectsData from "../components/ProjectsData.json";
 import Contact from "../components/contact";
 
 function App() {
   return (
-    <Router>
+    <>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
         <Route path="/work" element={<Work projects={projectsData}/>} />
         <Route path ="/contact" element={<Contact />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
