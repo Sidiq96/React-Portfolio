@@ -16,7 +16,7 @@ const Work = ({ projects }) => {
         </div>
 
         {/* Container for projects */}
-        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 ">
           {/* Grid Item */}
           {projects.map((item, index) => (
             <div
@@ -36,12 +36,12 @@ const Work = ({ projects }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
+                    <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg hover:text-red-600">
                       GitHub Repo
                     </button>
                   </a>
                   <a href={item.live} target="_blank" rel="noopener noreferrer">
-                    <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
+                    <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg hover:text-red-600">
                       Live Page
                     </button>
                   </a>
