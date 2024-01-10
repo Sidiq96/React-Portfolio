@@ -31,7 +31,7 @@ To install necessary dependencies, please run the following command:
 ```bash
 npm install 
 ```
-![screenshot of website](./assets/Screenshot%20of%20the%20team%20generator.png)
+![screenshot of website](./assets/images/React%20portfilo%20screenshot.png)
 
 ## Usage
 This application allows users to view my portfolio.
