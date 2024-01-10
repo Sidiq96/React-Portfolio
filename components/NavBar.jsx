@@ -57,7 +57,7 @@ const NavBar = () => {
             <a href="/skills">Skills</a>
           </li>
           <li className="py-6 text-4xl hover:text-red-500">
-            <a href="/Projects">Projects</a>
+            <a href="/work">Projects</a>
           </li>
           <li className="py-6 text-4xl hover:text-red-500">
             <a href="/Contact">Contact Us</a>
