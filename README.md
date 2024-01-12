@@ -32,6 +32,7 @@ To install necessary dependencies, please run the following command:
 npm install 
 ```
 ![screenshot of website](./assets/images/React%20portfilo%20screenshot.png)
+link to deployed application (https://sidiq96.github.io/React-Portfolio/)
 
 ## Usage
 This application allows users to view my portfolio.
