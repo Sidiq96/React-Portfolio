@@ -7,7 +7,7 @@ const Work = ({ projects }) => {
       name="work"
       className="pt-20 w-full md:h-screen text-gray-300 bg-[#0a192f]"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1400px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="inline mt-20 text-4xl font-bold text-gray-300 border-b-4 border-pink-600">
             Projects
@@ -16,7 +16,7 @@ const Work = ({ projects }) => {
         </div>
 
         {/* Container for projects */}
-        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 ">
+        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 ">
           {/* Grid Item */}
           {projects.map((item, index) => (
             <div
