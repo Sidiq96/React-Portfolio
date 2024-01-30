@@ -1,10 +1,8 @@
 import React from "react";
 import { FaArrowCircleRight } from "react-icons/fa";
+import {NavLink} from "react-router-dom";
 
 const Home = () => {
-    const handleButtonClick = () => {
-      window.location.href = "/work";
-    }
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* Container */}
@@ -22,9 +20,9 @@ const Home = () => {
           user interfaces to bring digital experiences to life.{" "}
         </p>
         <div>
-          <button className="flex items-center px-6 py-3 my-2 text-white border-2 group hover:bg-red-600 hover:scale-150 hover:duration-300" onClick={handleButtonClick}>
+        <NavLink to="/work" className="flex items-center px-6 py-3 my-2 text-white border-2 group hover:bg-red-600 hover:scale-150 hover:duration-300" style={{ maxWidth: "150px" }}>
             View Work <FaArrowCircleRight className="ml-2"/>
-          </button>
+          </NavLink>
         </div>
       </div>
     </div>

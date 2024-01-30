@@ -53,19 +53,19 @@ const NavBar = () => {
       {nav && (
         <ul className="md:hidden absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center">
           <li className="py-6 text-4xl hover:text-red-500">
-          <NavLink to="/" end> Home</NavLink>
+            <NavLink to="/" end onClick={handleClick}> Home</NavLink>
           </li>
           <li className="py-6 text-4xl hover:text-red-500">
-          <NavLink to="/about" end> About</NavLink>
+            <NavLink to="/about" end onClick={handleClick}> About</NavLink>
           </li>
           <li className="py-6 text-4xl hover:text-red-500">
-          <NavLink to="/skills" end> Skills</NavLink>
+            <NavLink to="/skills" end onClick={handleClick}> Skills</NavLink>
           </li>
           <li className="py-6 text-4xl hover:text-red-500">
-          <NavLink to="/work" end> Projects</NavLink>
+            <NavLink to="/work" end onClick={handleClick}> Projects</NavLink>
           </li>
           <li className="py-6 text-4xl hover:text-red-500">
-          <NavLink to="/contact" end> Contact</NavLink>
+            <NavLink to="/contact" end onClick={handleClick}> Contact</NavLink>
           </li>
         </ul>
       )}
