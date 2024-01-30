@@ -1,13 +1,13 @@
 import React from "react";
 
-import HTML from "../assets/images/html.png";
-import CSS from "../assets/images/css.png";
-import BootStrap from "../assets/images/bootstrap.png";
-import JavaScript from "../assets/images/javascript.png";
-import JQuery from "../assets/images/jquery.png";
-import ReactImg from "../assets/images/react.png";
-import Node from "../assets/images/node.png";
-import Tailwind from "../assets/images/tailwind.png";
+import HTML from "../src/assets/images/html.png";
+import CSS from "../src/assets/images/css.png";
+import BootStrap from "../src/assets/images/bootstrap.png";
+import JavaScript from "../src/assets/images/javascript.png";
+import JQuery from "../src/assets/images/jquery.png";
+import ReactImg from "../src/assets/images/react.png";
+import Node from "../src/assets/images/node.png";
+import Tailwind from "../src/assets/images/tailwind.png";
 
 const Skills = () => {
   return (

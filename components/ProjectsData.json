@@ -1,49 +1,49 @@
 [
   {
     "name": "Endless-Emporium",
-    "image": "../assets/images/endless-emporium.png",
+    "image": "../src/assets/images/endless-emporium.png",
     "github": "https://github.com/Aleks-Ianu/Endless-Emporium",
     "live": "https://endless-emporium.netlify.app/"
   },
   {
     "name": "data-finance",
-    "image": "../assets/images/data-finance.png",
+    "image": "../src/assets/images/data-finance.png",
     "github": "https://github.com/Sidiq96/data-finance",
     "live": "https://github.com/Sidiq96/data-finance"
   },
   {
     "name": "Restaurant Tracker",
-    "image": "../assets/images/restaurant-tracker.png",
+    "image": "../src/assets/images/restaurant-tracker.png",
     "github": "https://github.com/Sidiq96/restaurant-tracker/",
     "live": "https://sidiq96.github.io/restaurant-tracker/"
   },
   {
     "name": "Weather Dashboard",
-    "image": "../assets/images/weather-dashboard.png",
+    "image": "../src/assets/images/weather-dashboard.png",
     "github": "https://github.com/Sidiq96/Weather-Dashboard",
     "live": "https://sidiq96.github.io/Weather-Dashboard"
   },
   {
     "name": "Daily Planner",
-    "image": "../assets/images/daily-planner.png",
+    "image": "../src/assets/images/daily-planner.png",
     "github": "https://github.com/Sidiq96/Daily-Planner-App",
     "live": "https://sidiq96.github.io/Daily-Planner-App/"
   },
   {
     "name": "To Do List",
-    "image": "../assets/images/to-do-list.png",
+    "image": "../src/assets/images/to-do-list.png",
     "github": "https://github.com/Sidiq96/ToDo_List",
     "live": "https://sidiq96.github.io/ToDo_List/"
   },
   {
     "name": "Code Quiz",
-    "image": "../assets/images/code-quiz.png",
+    "image": "../src/assets/images/code-quiz.png",
     "github": "https://github.com/Sidiq96/Code_Quiz",
     "live": "https://sidiq96.github.io/Code_Quiz"
   },
   {
     "name": "Password Generator",
-    "image": "../assets/images/password-generator.png",
+    "image": "../src/assets/images/password-generator.png",
     "github": "https://github.com/Sidiq96/Password_Generator",
     "live": "https://sidiq96.github.io/Password_Generator/"
   }
