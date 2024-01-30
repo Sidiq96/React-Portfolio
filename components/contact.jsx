@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <div
         name="contact"
-        className="bg-[#0a192f] w-full h-screen flex justify-center items-center p-4"
+        className="bg-[#0a192f] w-full h-screen flex justify-center items-center p-4 sm:pt-20"
       >
         <form
           action="mailto:hersisidiq@gmail.com"

@@ -1,13 +1,10 @@
 import PropTypes from 'prop-types';
-import React from "react";
+import React from 'react';
 
 const Work = ({ projects }) => {
   return (
-    <div
-      name="work"
-      className="pt-20 w-full md:h-screen text-gray-300 bg-[#0a192f]"
-    >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div name="work" className="pt-20 w-full md:h-screen text-gray-300 bg-[#0a192f]">
+      <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="inline mt-20 text-4xl font-bold text-gray-300 border-b-4 border-pink-600">
             Projects
@@ -16,12 +13,14 @@ const Work = ({ projects }) => {
         </div>
 
         {/* Container for projects */}
-        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 ">
+        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4">
           {/* Grid Item */}
           {projects.map((item, index) => (
             <div
               key={index}
-              style={{ backgroundImage: `url(${item.image})` }}
+              style={{
+                backgroundImage: `url(${item.image || 'fallback-image-url'})`,
+              }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
             >
@@ -31,11 +30,7 @@ const Work = ({ projects }) => {
                   {item.name}
                 </span>
                 <div className="pt-8 text-center">
-                  <a
-                    href={item.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={item.github} target="_blank" rel="noopener noreferrer">
                     <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg hover:text-red-600">
                       GitHub Repo
                     </button>
@@ -56,8 +51,14 @@ const Work = ({ projects }) => {
 };
 
 Work.propTypes = {
-  projects: PropTypes.array,
+  projects: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      image: PropTypes.string, // Assuming image is optional
+      github: PropTypes.string.isRequired,
+      live: PropTypes.string.isRequired,
+    })
+  ),
 };
 
 export default Work;
-
