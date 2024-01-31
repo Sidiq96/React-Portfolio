@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: '/React-Portfolio/',
   plugins: [react()],
+  extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
 });
