@@ -31,7 +31,7 @@ To install necessary dependencies, please run the following command:
 ```bash
 npm install 
 ```
-![screenshot of website](./assets/images/React%20portfilo%20screenshot.png)
+![screenshot of website](../public/assets/images/React%20portfilo%20screenshot.png)
 link to deployed application (https://sidiq96.github.io/React-Portfolio/)
 
 ## Usage
