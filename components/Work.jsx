@@ -1,52 +1,60 @@
 import React from "react";
+import endlessEmporium from "../src/assets/images/Endless-Emporium.png";
+import dataFinance from "../src/assets/images/data-finance.png";
+import flixClone from "../src/assets/images/FlixClone.png";
+import restaurantTracker from "../src/assets/images/restaurant-tracker.png";
+import weatherDashboard from "../src/assets/images/weather-dashboard.png";
+import dailyPlanner from "../src/assets/images/daily-planner.png";
+import codeQuiz from "../src/assets/images/code-quiz.png";
+import passwordGenerator from "../src/assets/images/Password-Generator.png";
 
 const Work = () => {
   const projects = [
     {
       name: "Endless-Emporium",
-      image: "../src/assets/images/Endless-Emporium.png",
+      image: endlessEmporium,
       github: "https://github.com/Aleks-Ianu/Endless-Emporium",
       live: "https://endless-emporium.netlify.app/",
     },
     {
       name: "data-finance",
-      image: "../src/assets/images/data-finance.png",
+      image: dataFinance,
       github: "https://github.com/Sidiq96/data-finance",
       live: "https://github.com/Sidiq96/data-finance",
     },
     {
       name: "FlixClone",
-      image: "../src/assets/images/FlixClone.png",
+      image: flixClone,
       github: "https://github.com/Sidiq96/FlixClone",
       live: "https://sidiq96.github.io/",
     },
     {
       name: "Restaurant Tracker",
-      image: "../src/assets/images/restaurant-tracker.png",
+      image: restaurantTracker,
       github: "https://github.com/Sidiq96/restaurant-tracker/",
       live: "https://sidiq96.github.io/restaurant-tracker/",
     },
     {
       name: "Weather Dashboard",
-      image: "../src/assets/images/weather-dashboard.png",
+      image: weatherDashboard,
       github: "https://github.com/Sidiq96/Weather-Dashboard",
       live: "https://sidiq96.github.io/Weather-Dashboard",
     },
     {
       name: "Daily Planner",
-      image: "../src/assets/images/daily-planner.png",
+      image: dailyPlanner,
       github: "https://github.com/Sidiq96/Daily-Planner-App",
       live: "https://sidiq96.github.io/Daily-Planner-App/",
     },
     {
       name: "Code Quiz",
-      image: "../src/assets/images/Code-quiz.png",
+      image: codeQuiz,
       github: "https://github.com/Sidiq96/Code_Quiz",
       live: "https://sidiq96.github.io/Code_Quiz",
     },
     {
       name: "Password Generator",
-      image: "../src/assets/images/Password-Generator.png",
+      image: passwordGenerator,
       github: "https://github.com/Sidiq96/Password_Generator",
       live: "https://sidiq96.github.io/Password_Generator/",
     },
