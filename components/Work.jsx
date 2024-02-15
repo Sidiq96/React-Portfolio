@@ -57,7 +57,7 @@ function Work() {
 }
 
 Work.propTypes = {
-  projects: PropTypes.array,
+  data: PropTypes.array,
 };
 
 export default Work;
