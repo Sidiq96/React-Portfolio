@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from "react";
-import { data } from "../components/ProjectsData.json";
+import data   from "../components/ProjectsData.json";
 
 function Work() {
   return (
